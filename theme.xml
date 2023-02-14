@@ -151,14 +151,14 @@
 			<text>${system.fullName}</text>
 			<textColor>${outlineColor1}</textColor>
 			<fontPath>${mainFont}</fontPath>
-			<fontSize>0.02</fontSize>
+			<fontSize>0.035</fontSize>
 			<letterCase>none</letterCase>
 			<lineSpacing>1</lineSpacing>
 			<zIndex>50</zIndex>
 		</carousel>
 		<gameselector name="select">
 			<selection>random</selection>
-			<gameCount>10</gameCount>
+			<gameCount>3</gameCount>
 			<allowDuplicates>true</allowDuplicates>
 		</gameselector>
 		<text name="info1, info2, info3, info4, info5, info6, info7, info8, info9, info10">
@@ -248,7 +248,7 @@
 			<tile>true</tile>
 			<tileSize>0 0.1</tileSize>
 			<imageType>screenshot</imageType>
-			<gameselectorEntry>3</gameselectorEntry>
+			<gameselectorEntry>0</gameselectorEntry>
 			<zIndex>3</zIndex>
 		</image>
 
@@ -298,7 +298,7 @@
 			<zIndex>2</zIndex>
 		</image>
 		<image name="marquee">
-			<pos>0.785 0.12</pos>
+			<pos>0.781 0.125</pos>
 			<origin>0.5 0.5</origin>
 			<maxSize>0.25 0.24</maxSize>
 			<tile>true</tile>
@@ -329,7 +329,8 @@
 			<fontPath>${mainFont}</fontPath>
 			<fontSize>0.03</fontSize>
 			<color>${outlineColor1}</color>
-			<pos>0.74 0.24</pos>
+			<horizontalAlignment>left</horizontalAlignment>
+			<pos>0.7425 0.24</pos>
 		</text>
 		<text name="player2">
 			<text>Number of players:</text>

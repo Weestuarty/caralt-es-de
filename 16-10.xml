@@ -60,7 +60,8 @@
 			<fontPath>${mainFont}</fontPath>
 			<fontSize>0.03</fontSize>
 			<color>${outlineColor1}</color>
-			<pos>0.75 0.24</pos>
+            <horizontalAlignment>left</horizontalAlignment>
+			<pos>0.7525 0.24</pos>
 		</text>
         <rating name="rating">
             <pos>0.81 0.25</pos>

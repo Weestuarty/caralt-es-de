@@ -7,6 +7,8 @@
     <aspectRatio>16:10</aspectRatio>
     <aspectRatio>4:3</aspectRatio>
     <aspectRatio>21:9</aspectRatio>
+    
+    <themeName>CarAlt</themeName>
 
     <colorScheme name="mono">
         <label>Black & White</label>
