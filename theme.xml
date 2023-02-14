@@ -304,6 +304,7 @@
 			<tile>true</tile>
 			<tileSize>0 0.1</tileSize>
 			<imageType>marquee</imageType>
+			<interpolation>linear</interpolation>
 			<zIndex>35</zIndex>
 		</image>
 		<image name="cover3">
