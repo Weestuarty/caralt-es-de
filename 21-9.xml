@@ -93,7 +93,8 @@
 			<fontPath>${mainFont}</fontPath>
 			<fontSize>0.03</fontSize>
 			<color>${outlineColor1}</color>
-			<pos>0.74 0.24</pos>
+            <horizontalAlignment>left</horizontalAlignment>
+			<pos>0.7325 0.24</pos>
 		</text>
         <text name="player2">
 			

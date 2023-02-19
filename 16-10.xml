@@ -49,18 +49,39 @@
             <zIndex>54</zIndex>
           </image>
     </view>
-   
+   <view name="system">
+    <text name="info1, info2, info3, info4, info5, info6, info7, info8, info9, info10">
+        <size>0.37 0.03</size>
+        <fontPath>${mainFont}</fontPath>
+        <fontSize>0.025</fontSize>
+        <horizontalAlignment>left</horizontalAlignment>
+        <color>${outlineColor1}</color>
+    </text>
+   </view>
 
     <view name="gamelist">
         <text name="collectionsSystemName">
            <fontSize>0.025</fontSize>
         </text>
+        <helpsystem name="help">
+			<pos>.995 0.9875</pos>
+			<origin>1 1</origin>
+			<textColor>${backgroundColor}</textColor>
+			<textColorDimmed>${helpdimmedColor}</textColorDimmed>
+			<iconColor>${backgroundColor}</iconColor>
+			<iconColorDimmed>${helpdimmedColor}</iconColorDimmed>
+			<fontPath>${mainFont}</fontPath>
+			<fontSize>0.015</fontSize>
+			<opacity>0.6</opacity>
+			<letterCase>capitalize</letterCase>
+		</helpsystem>
         <text name="player1">
 			<metadata>players</metadata>
 			<fontPath>${mainFont}</fontPath>
 			<fontSize>0.03</fontSize>
 			<color>${outlineColor1}</color>
-			<pos>0.75 0.24</pos>
+            <horizontalAlignment>left</horizontalAlignment>
+			<pos>0.7525 0.24</pos>
 		</text>
         <rating name="rating">
             <pos>0.81 0.25</pos>
@@ -75,7 +96,7 @@
             <size>0.1 .3</size>
         </badges>
         <image name="background3">
-            <pos>0.62 0.96</pos>
+            <pos>0.65 0.96</pos>
             <size>0.38 0.04</size>
             <origin>0 0</origin>
             <path>./assets/box.png</path>
