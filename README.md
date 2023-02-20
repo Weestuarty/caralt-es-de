@@ -1,6 +1,6 @@
-# Simcar for EmulationStation Desktop Edition v2.0
+# CarAlt for EmulationStation Desktop Edition v2.0
 
-Simple Carousel theme set for ES-DE.
+A simple alternate carousel theme set for ES-DE.
 
 ![systems](system.png)
 ![games](game.png)
