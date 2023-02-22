@@ -9,11 +9,12 @@
     <aspectRatio>21:9</aspectRatio>
     
     <suppressTransitionProfiles>
+        <entry>builtin-instant</entry>
         <entry>builtin-slide</entry>
         <entry>builtin-fade</entry>
     </suppressTransitionProfiles>
     
-    <themeName>CarAlt</themeName>
+    <themeName>caralt-es-de</themeName>
 
     <colorScheme name="gold">
         <label>Gold</label>
