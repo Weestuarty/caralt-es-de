@@ -14,7 +14,7 @@
         <entry>builtin-fade</entry>
     </suppressTransitionProfiles>
     
-    <themeName>caralt-es-de</themeName>
+    <themeName>CarAlt</themeName>
 
     <colorScheme name="gold">
         <label>Gold</label>
