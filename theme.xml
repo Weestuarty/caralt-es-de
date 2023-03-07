@@ -125,7 +125,7 @@
 			<iconColor>${backgroundColor}</iconColor>
 			<iconColorDimmed>${helpdimmedColor}</iconColorDimmed>
 			<fontPath>${mainFont}</fontPath>
-			<fontSize>0.017</fontSize>
+			<fontSize>0.0162</fontSize>
 			<opacity>0.6</opacity>
 			<letterCase>capitalize</letterCase>
 		</helpsystem>
