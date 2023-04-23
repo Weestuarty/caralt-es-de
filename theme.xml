@@ -120,10 +120,13 @@
 		<helpsystem name="help">
 			<pos>.995 0.9875</pos>
 			<origin>1 1</origin>
+			<posDimmed>0.5 0.85</posDimmed>
+			<originDimmed>0.5 0.5</originDimmed>
+			<textColorDimmed>${outlineColor1}</textColorDimmed>
+			<iconColorDimmed>${outlineColor1}</iconColorDimmed>
+			<fontSizeDimmed>0.025</fontSizeDimmed>
 			<textColor>${backgroundColor}</textColor>
-			<textColorDimmed>${helpdimmedColor}</textColorDimmed>
 			<iconColor>${backgroundColor}</iconColor>
-			<iconColorDimmed>${helpdimmedColor}</iconColorDimmed>
 			<fontPath>${mainFont}</fontPath>
 			<fontSize>0.0162</fontSize>
 			<opacity>0.6</opacity>
