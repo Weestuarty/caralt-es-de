@@ -5,7 +5,8 @@
 <theme>
 	<include>./navigationsounds.xml</include>
 	<include>./colors.xml</include>
-	<include>./sysinfo/${system.theme}.xml</include>
+	<include>./system/metadata/_default.xml</include>
+    <include>./system/metadata/${system.theme}.xml</include>
 
 	<aspectRatio name="4:3">
 		<include>./4-3.xml</include>
@@ -166,42 +167,15 @@
 			<gameCount>3</gameCount>
 			<allowDuplicates>true</allowDuplicates>
 		</gameselector>
-		<text name="info1, info2, info3, info4, info5, info6, info7, info8, info9, info10">
-			<size>0.4 0.03</size>
+		<text name="info1">
+			<size>0.34 0.6</size>
 			<fontPath>${mainFont}</fontPath>
 			<fontSize>0.028</fontSize>
 			<horizontalAlignment>left</horizontalAlignment>
 			<color>${outlineColor1}</color>
-		</text>
-		<text name="info1">
-			<pos>0.631 0.32</pos>
-		</text>
-		<text name="info2">
-			<pos>0.6295 0.36</pos>
-		</text>
-		<text name="info3">
-			<pos>0.628 0.4</pos>
-		</text>
-		<text name="info4">
-			<pos>0.6265 0.44</pos>
-		</text>
-		<text name="info5">
-			<pos>0.625 0.48</pos>
-		</text>
-		<text name="info6">
-			<pos>0.625 0.52</pos>
-		</text>
-		<text name="info7">
-			<pos>0.6265 0.56</pos>
-		</text>
-		<text name="info8">
-			<pos>0.628 0.6</pos>
-		</text>
-		<text name="info9">
-			<pos>0.6295 0.64</pos>
-		</text>
-		<text name="info10">
-			<pos>0.631 0.68</pos>
+			<pos>0.65 0.2</pos>
+			<text>${systemDescription}</text>
+			<container>true</container>
 		</text>
 		<text name="gamecount">
 			<pos>0.03 0.5</pos>
