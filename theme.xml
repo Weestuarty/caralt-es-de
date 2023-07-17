@@ -373,7 +373,7 @@
 			<size>0.1 .45</size>
 			<direction>column</direction>
 			<lines>1</lines>
-			<itemsPerLine>2</itemsPerLine>
+			<itemsPerLine>3</itemsPerLine>
 			<slots>collection, folder,manual</slots>
 			<controllerPos>0.51 0.415</controllerPos>
 			<controllerSize>0.85</controllerSize>
