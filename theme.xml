@@ -22,6 +22,7 @@
 
 	<variables>
 		<mainFont>./assets/fonts/rost.otf</mainFont>
+		<controlleroutline>./system/controller-outline/${system.theme}.svg</controlleroutline>
 	</variables>
 
 	<view name="system, gamelist">
@@ -103,7 +104,7 @@
 			<pos>0.043 0.305</pos>
 			<maxSize>0.07 0.07</maxSize>
 			<origin>0.5 0.5</origin>
-			<path>./assets/controllers/${system.theme}.svg</path>
+			<path>${controlleroutline}</path>
 			<tile>false</tile>
 			<color>${outlineColor1}</color>
 			<zIndex>54</zIndex>
@@ -113,7 +114,7 @@
 			<maxSize>0.07 0.08</maxSize>
 			<origin>0.5 0.5</origin>
 			<rotation>180</rotation>
-			<path>./assets/controllers/${system.theme}.svg</path>
+			<path>${controlleroutline}</path>
 			<tile>false</tile>
 			<color>${outlineColor1}</color>
 			<zIndex>54</zIndex>
