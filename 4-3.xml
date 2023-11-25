@@ -9,7 +9,6 @@
 			<fastScrolling>true</fastScrolling>
 			<type>verticalWheel</type>
 			<itemScale>1.8</itemScale>
-			<staticImage>./assets/syslogo/${system.theme}.svg</staticImage>
 			<imageColor>${outlineColor1}</imageColor>
 			<itemRotationOrigin>-5 0.5</itemRotationOrigin>
 			<systemNameSuffix>false</systemNameSuffix>
