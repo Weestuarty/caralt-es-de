@@ -1,0 +1,72 @@
+<theme>
+<fontSize name="medium">
+    <variables>
+    <carsize>0.12 0.09</carsize>
+        <sysinfo>0.028</sysinfo>
+        <syssize>0.34 0.6</syssize>
+        <syspos>0.65 0.2</syspos>
+        <gamesize>0.06</gamesize>
+
+        <gamecar>0.04</gamecar>
+        <gamecarsize>0.2 0.13</gamecarsize>
+        <carrotate>5</carrotate>
+        <gamemeta>0.035</gamemeta>
+        <gamedescsize>0.26 0.4</gamedescsize>
+    <gamedescpos>0.63 0.5</gamedescpos>
+    <playfont>0.03</playfont>
+    <playpos>0.635 0.24</playpos>
+    <playpos2>0.7425 0.24</playpos2>
+    <helpsize>0.0162</helpsize>
+    <helpbarpos>0.65 0.96</helpbarpos>
+    <helpbarsize>0.35 0.04</helpbarsize>
+    </variables>
+</fontSize>
+
+<fontSize name="large">
+   <variables> 
+    <carsize>0.12 0.09</carsize>
+    <sysinfo>0.028</sysinfo>
+    <syssize>0.34 0.6</syssize>
+    <syspos>0.65 0.2</syspos>
+    <gamesize>0.065</gamesize>
+
+    <gamecar>0.045</gamecar>
+    <gamecarsize>0.2 0.165</gamecarsize>
+    <carrotate>6.1</carrotate>
+    <gamemeta>0.0425</gamemeta>
+    <gamedescsize>0.255 0.45</gamedescsize>
+    <gamedescpos>0.635 0.525</gamedescpos>
+    <playfont>0.04</playfont>
+    <playpos>0.665 0.87</playpos>
+    <playpos2>0.85 0.87</playpos2>
+    <helpsize>0.0275</helpsize>
+    <helpbarpos>0.35 0.95</helpbarpos>
+    <helpbarsize>0.65 0.05</helpbarsize>
+
+    </variables>
+</fontSize>
+
+<fontSize name="x-large">
+    <variables>
+    <carsize>0.15 0.09</carsize>
+    <sysinfo>0.06</sysinfo>
+    <syssize>0.3 0.85</syssize>
+    <syspos>0.675 0.075</syspos>
+    <gamesize>0.07</gamesize>
+
+    <gamecar>0.06</gamecar>
+    <gamecarsize>0.2 0.2</gamecarsize>
+    <carrotate>7.2</carrotate>
+    <gamemeta>0.05</gamemeta>
+    <gamedescsize>0.25 0.5</gamedescsize>
+    <gamedescpos>0.64 0.55</gamedescpos>
+    <playfont>0.05</playfont>
+    <playpos>0.665 0.87</playpos>
+    <playpos2>0.85 0.87</playpos2>
+    <helpsize>0.035</helpsize>
+    <helpbarpos>0.35 0.94</helpbarpos>
+    <helpbarsize>0.65 0.06</helpbarsize>
+
+    </variables>
+</fontSize>
+</theme>
