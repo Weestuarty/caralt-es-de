@@ -6,6 +6,7 @@
 	<include>./navigationsounds.xml</include>
 	<include>./colors.xml</include>
 	<include>./font.xml</include>
+	<include>./languages.xml</include>
 	<include>./system/metadata/_default.xml</include>
     <include>./system/metadata/${system.theme}.xml</include>
 
@@ -317,7 +318,7 @@
 			<pos>${playpos2}</pos>
 		</text>
 		<text name="player2">
-			<text>Number of players:</text>
+			<text>${langLabelPlayers}:</text>
 			<metadataElement>true</metadataElement>
 			<fontPath>${mainFont}</fontPath>
 			<fontSize>${playfont}</fontSize>
